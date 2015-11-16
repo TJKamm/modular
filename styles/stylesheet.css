@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+img {
+  width: 15rem;
+}
+li {
+  height: 15rem;
+  width: 15rem;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  color: darkslategray;
+  margin-bottom: 0.6rem;
+}
+p.rating {
+  color: gray;
+}
+p.title {
+  font-weight: 600;
+  color: #000000;
+}
+p.title:hover {
+  text-decoration: underline;
+}
+p.currentPrice {
+  font-size: 14px;
+  display: inline;
+}
+p.preSalePrice {
+  text-decoration: line-through;
+  color: red;
+  font-size: 14px;
+  display: inline;
+}
+p.savingsPercentage {
+  clear: both;
+  font-size: 14px;
+  margin-top: 0.3rem;
+   margin-bottom: 1.5rem;
+}
+a.compare {
+  border: 1px solid black;
+  padding: 0.6rem 1rem;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+}
+a.compare:hover {
+  background-color: lightgray;
+}

@@ -24,7 +24,7 @@ p.title {
   font-weight: 600;
   color: #000000;
 }
-p.title:hover {
+p.title {
   text-decoration: underline;
 }
 p.currentPrice {
